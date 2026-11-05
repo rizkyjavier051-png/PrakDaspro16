@@ -1,5 +1,3 @@
-package pertemuan10;
-
 import java.util.Scanner;
 public class nilaikelompok16 {
     public static void main(String[] args) {
