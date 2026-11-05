@@ -12,8 +12,8 @@ public class star16 {
         System.out.print("masukkan nilai n=");
         int nilai=j.nextInt();
 
-        for (int i = 0; i <= nilai; i++) {
-            System.out.print("*");
+        for (int i = 1; i <= nilai; i += 2) {
+        System.out.print(i + " ");
         }
         System.out.println();
         j.close();
