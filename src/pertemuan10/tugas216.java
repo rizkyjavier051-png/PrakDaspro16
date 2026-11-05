@@ -1,4 +1,3 @@
-package pertemuan10;
 import java.util.Scanner;
 
 public class tugas216 {
