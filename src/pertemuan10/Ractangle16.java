@@ -9,8 +9,8 @@ public class Ractangle16 {
         System.out.print("masukkan jumlah kolom=");
         int kolom=javier.nextInt();
 
-        for (int i = 1; i <= kolom; i++) {
-            for (int j = 1; j <= baris; j++) {
+        for (int i = 1; i <= baris; i++) {
+            for (int j = 1; j <= kolom; j++) {
                 System.out.print("*");
             }
         System.out.println();
