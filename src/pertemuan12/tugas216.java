@@ -67,7 +67,7 @@ public class tugas216 {
                 }
             }
             
-            System.out.println("=== STRUK PESANAN KAFE KAMPUS ===");
+            System.out.println("\n=== STRUK PESANAN KAFE KAMPUS ===");
             for (int i = 0; i < daftarPesanan.length; i++) {
                 System.out.println((i + 1) + ". " + daftarPesanan[i] + "\t: Rp " + hargaPesanan[i]);
             }
