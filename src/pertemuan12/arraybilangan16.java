@@ -3,16 +3,12 @@ import java.util.Arrays;
 public class arraybilangan16 {
 public static void main(String[] args) {
 
-        int[] bil = new int[4];
-        bil[0] = 16; 
-        bil[1] = 24;
-        bil[2] = -3;
-        bil[3] = 21;
+          int[] bil = {16, 24, -3, 21};
   
 
 
         for (int i = 0; i < bil.length; i++) {
-             System.out.println("bil[" + i+ "] = " + bil[i] + ", double = " + (bil[i] * 2));
+             System.out.println("bil[" + i+ "] = " + bil[i]);
         }
 
         for (int nilai : bil) {
