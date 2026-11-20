@@ -31,7 +31,7 @@ public class tugas216 {
             if (indeksCari != -1) {
                 System.out.println("Menu tersedia: " + menu[indeksCari] + " | Harga: Rp " + harga[indeksCari]);
             } else {
-                System.out.println("Maaf, menu \"" + cariMenu + "\" tidak tersedia.");
+                System.out.println("Maaf, menu " + cariMenu + " tidak tersedia.");
             }
             
             System.out.print("Masukkan jumlah item yang ingin dipesan: ");
@@ -69,7 +69,7 @@ public class tugas216 {
             
             System.out.println("\n=== STRUK PESANAN KAFE KAMPUS ===");
             for (int i = 0; i < daftarPesanan.length; i++) {
-                System.out.println((i + 1) + ". " + daftarPesanan[i] + "\t: Rp " + hargaPesanan[i]);
+                System.out.println((i + 1) + ". " + daftarPesanan[i] + ": Rp " + hargaPesanan[i]);
             }
             System.out.println("Total Biaya: Rp " + totalBiaya);
         }
