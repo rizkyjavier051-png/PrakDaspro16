@@ -2,7 +2,7 @@ package pertemuan12;
 
 import java.util.Arrays;
 
-public class sortnilai16 {
+public class sortNilai16 {
     public static void main(String[] args) {
         int[] nilai = {32, 47, 24, 62, 12, 37};
         System.out.println("Sebelum diurutkan: " + Arrays.toString(nilai));
