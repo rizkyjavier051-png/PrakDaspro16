@@ -1,6 +1,6 @@
 package pertemuan12;
 
-public class searchnilai16 {
+public class searchNilai16 {
     public static void main(String[] args) {
         int[] nilai = {78, 65, 90, 55, 88, 72};
         int key = 90;
