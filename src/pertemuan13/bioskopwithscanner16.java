@@ -50,8 +50,22 @@ public class bioskopwithscanner16 {
                         break;
                     }
                 }
+
+                } else if (pilihan.equals("2")) {
+                System.out.println("\nDaftar penonton:");
+                for (int i = 0; i < penonton.length; i++) {
+                    for (int j = 0; j < penonton[i].length; j++) {
+                        String isi = (penonton[i][j] == null) ? "***" : penonton[i][j];
+                        System.out.printf("%-10s", isi);
+                    }
+                    System.out.println();
+                }
+            } else if (pilihan.equals("3")) {
+                System.out.println("Terima kasih.");
+                break;
+            } else {
+                System.out.println("Menu tidak valid!");
             }
-               
         }
     }
 }
