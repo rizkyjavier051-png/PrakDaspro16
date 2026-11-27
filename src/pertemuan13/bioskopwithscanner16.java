@@ -50,10 +50,12 @@ public class bioskopwithscanner16 {
                         break;
                     }
                 }
-                }
+            }
+               
         }
-
     }
 }
+
+    
 
 
