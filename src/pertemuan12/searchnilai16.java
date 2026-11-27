@@ -24,7 +24,9 @@ public class searchNilai16 {
                 break;
             }
         }
-        System.out.println("Nilai yang dicari tidak ditemukan: " + key+ " tidak ada di antara " + nilai.length + " data nilai.");
+       if (!ditemukan) {
+ System.out.println("Nilai " + key + " tidak ditemukan.");
+}
 
     }
 }
