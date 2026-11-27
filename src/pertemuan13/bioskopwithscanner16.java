@@ -10,24 +10,29 @@ public class bioskopwithscanner16 {
         String[][] penonton = new String[4][2];
 
         while (true) {
-            System.out.print("Masukkan nama: ");
-            nama = sc.nextLine();
-            System.out.print("Masukkan baris: ");
-            baris = sc.nextInt();
-            System.out.print("Masukkan kolom: ");
-            kolom = sc.nextInt();
-            sc.nextLine();  
+            System.out.println("\n===== MENU =====");
+            System.out.println("1. Input data penonton");
+            System.out.println("2. Tampilkan daftar penonton");
+            System.out.println("3. Exit");
+            System.out.print("Pilih menu: ");
+            pilihan = sc.nextLine().trim();
 
-            penonton[baris - 1][kolom - 1] = nama;
-
-            System.out.print("Input penonton lainnya? (y/n): ");
-            pilihan = sc.nextLine();
-
-            if (pilihan.equalsIgnoreCase("n")) {
-                break;
-            }
+            if (pilihan.equals("1")) {
+                while (true) {
+                    System.out.print("Masukkan nama: ");
+                    nama = sc.nextLine();
+                    
+                    
+                    System.out.print("Input penonton lainnya? (y/n): ");
+                    pilihan = sc.nextLine();
+                    
+                    if (pilihan.equalsIgnoreCase("n")) {
+                        break;
+                    }
+                }
         }
 
     }
+}
 }
 
